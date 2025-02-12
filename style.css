@@ -6,14 +6,14 @@ body {
     font-family: 'Theinhardt', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #262222; /* Priority from HTML inline */
+    background-color: #DEDEDE; 
     color: #262222;
 }
 
 /* Header Styles */
 header {
     background-color: #682925; /* Priority from HTML inline */
-    color: white;
+    color: #F7F7F7;
     text-align: center;
     padding: 1em;
 }
@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #F7F7F7;
     margin: 0 15px;
     text-decoration: none;
     font-weight: 700;
@@ -34,9 +34,9 @@ nav a {
 /* Hero Section Styles */
 .hero {
     background: url('assets/hero-image.jpg') no-repeat center center/cover;
-    color: white;
+    color: #F7F7F7;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
     font-family: 'Tiempos Text', serif;
 }
 
@@ -93,7 +93,7 @@ nav a {
 /* Footer Styles */
 footer {
     background-color: #682925;
-    color: white;
+    color: #F7F7F7;
     text-align: center;
     padding: 1em;
 }
