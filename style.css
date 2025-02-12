@@ -6,54 +6,84 @@ body {
     font-family: 'Theinhardt', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7; /* Off-White */
-    color: #262222; /* Charcoal */
+    background-color: #262222; /* Priority from HTML inline */
+    color: #262222;
 }
 
 /* Header Styles */
 header {
-    background-color: #262222; /* Charcoal */
+    background-color: #682925; /* Priority from HTML inline */
     color: white;
     text-align: center;
     padding: 1em;
 }
 
 /* Navigation Styles */
+nav {
+    margin-top: 1em; /* Priority from HTML inline */
+}
+
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
     font-weight: 700;
-    font-family: 'Theinhardt', sans-serif; /* Use Theinhardt for navigation */
+    font-family: 'Theinhardt', sans-serif;
 }
 
-/* Hero Section Styles */.hero {
+/* Hero Section Styles */
+.hero {
     background: url('assets/hero-image.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 80px 20px;
-    font-family: 'Tiempos Text', serif; /* Use Tiempos Text for hero section */
+    font-family: 'Tiempos Text', serif;
 }
 
-/* Section Styles */.section {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto; /* Center the sections */
+.hero h1 {
+    font-size: 3em; /* Priority from HTML inline */
 }
 
-/* Heading Styles */
-h1, h2 {
-    font-family: 'Tiempos Text', serif; /* Use Tiempos Text for headings */
-    color: #682925; /* Deep Red */
+.hero p {
+    font-size: 1.5em; /* Priority from HTML inline */
+    color: #262222; /* Priority from HTML inline */
+    font-family: 'Theinhardt', sans-serif; /* Priority from HTML inline */
 }
 
-/* Contact Section Styles */.contact {
+/* Section Styles */
+.section {
+    background-color: #F7F7F7; /* Priority from HTML inline */
+    border-radius: 10px; /* Priority from HTML inline */
+    padding: 20px; /* Priority from HTML inline */
+    margin: 20px auto; /* Priority from HTML inline */
+    max-width: 800px; /* From original CSS */
+    display: flex; /* Priority from HTML inline */
+    flex-direction: column; /* Priority from HTML inline */
+    align-items: center; /* Priority from HTML inline */
+}
+
+.section > * {
+    text-align: center; /* Priority from HTML inline */
+    width: 100%; /* Priority from HTML inline */
+}
+
+.section h2 {
+    text-align: center; /* Priority from HTML inline */
+    font-family: 'Tiempos Text', serif; /* From original CSS */
+    color: #682925; /* From original CSS */
+}
+
+/* Contact Section Styles */
+.contact {
     text-align: center;
-}.contact p {
+}
+
+.contact p {
     margin: 5px 0;
 }
 
-/* Logo Styles */.logo {
+/* Logo Styles */
+.logo {
     display: block;
     margin: 0 auto;
     max-width: 150px;
@@ -61,7 +91,7 @@ h1, h2 {
 
 /* Footer Styles */
 footer {
-    background-color: #682925; /* Red */
+    background-color: #682925;
     color: white;
     text-align: center;
     padding: 1em;
