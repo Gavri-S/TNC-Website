@@ -94,6 +94,16 @@ nav a {
 footer {
     background-color: #682925;
     color: #F7F7F7;
-    text-align: center;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer-text {
+    margin: 0;
 }
