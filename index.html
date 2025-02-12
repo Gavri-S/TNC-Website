@@ -30,7 +30,19 @@
       background-color: #F7F7F7; /* Off-white background color */
       border-radius: 10px;
       padding: 20px;
-      margin: 20px;
+      margin: 20px auto; /* Center the sections horizontally */
+      display: flex; /* Enable flexbox layout */
+      flex-direction: column; /* Align items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+
+  .section > * {
+      text-align: center; /* Center the content within the boxes */
+      width: 100%; /* Make sure the content takes the full width of the box */
+    }
+
+    header { /* Style the header (navigation section) */
+      background-color: #682925; /* Red brand color */
     }
   </style>
 </head>
